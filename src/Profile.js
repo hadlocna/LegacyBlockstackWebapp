@@ -18,6 +18,11 @@ export default class Profile extends Component {
   	  	  return avatarFallbackImage;
   	  	},
   	  },
+      username: "",
+      newStatus: "",
+      statuses: [],
+      statusIndex: 0,
+      isLoading: false
   	};
   }
 
